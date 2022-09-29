@@ -1,0 +1,264 @@
+html, body {
+    width: 100%;
+    position: relative;
+}
+
+body{
+  height: 100%;
+  background: linear-gradient(to bottom right, #070630 50%,#060454 90%);
+  background-color: black;
+  margin-top: 0px;
+}
+h1{
+letter-spacing: 3px;
+  font-size: 3rem;
+  color: #F7F7F7;
+    position: absolute;
+    transition: all .6s ease-in-out;
+    text-align: left;
+}
+
+.top1 h1{
+  position: relative;
+}
+h3{
+  display: inline-block;
+  color: white;
+}
+
+p{
+  text-decoration: overline;
+}
+
+a{
+  text-decoration: none;
+}
+.top p{
+  position: absolute;
+  transition: all .6s ease-in-out;
+  font-family:  'Caveat', cursive;
+  font-size: 2rem;
+  color: white;
+  padding: 30px;
+  top: 400px;
+  /* border: 1px solid #222831; */
+  border: 3px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  border-radius: 7px;
+}
+.top{
+    /* border: 1px solid #222831;; */
+/*
+
+    background-color: rgb(255,255,255,0.025); */
+    text-align: center;
+    padding: 50px;
+
+    width: 40%;
+    right: auto;
+    left: auto;
+    text-align:left;
+    margin: 30px 50px;
+    height: 400px;
+}
+
+.top1 p:hover{
+  /* transform: scale(1.5); */
+}
+.top1 p{
+  position: relative;
+  transition: all .6s ease-in-out;
+  font-family:  'Caveat', cursive;
+  font-size: 2rem;
+  color: white;
+  padding: 30px;
+  top: 100px;
+  border: 1px solid #222831;
+  border-radius: 7px;
+
+
+}
+
+#skills h1{
+  font-weight: 900;
+}
+
+.top span{
+  display: block;
+}
+
+
+.row{
+  justify-content: left;
+  padding: 1% 3%;
+  text-align: center;
+  background: linear-gradient(to bottom right, #070630 0%,#060454 100%);
+}
+
+
+.row1{
+  position: relative;
+  left: auto;
+  right: auto;
+  display: flex;
+  justify-content: center !important;
+  margin: 20px 10px;
+}
+
+.top img{
+  width: 500px;
+  position: absolute;
+  top:60px;
+  right: 0;
+}
+
+.row hr{
+  color: white;
+  width: 50%;
+  margin: 10px auto;
+  border: 0 8px;
+}
+
+
+#skills{
+  margin: 100px auto;
+justify-content: center;
+flex-direction: row-reverse;
+text-align: center;
+}
+
+#skills h2{
+  font-size: 3rem;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  color: grey;
+}
+.skill-icons{
+  color: white;
+  padding: 20px;
+  border-radius: 7px;
+  width: auto;
+  height: auto;
+  background-color:  rgb(255,255,255,0.08);
+  margin: 0 70px;
+}
+.pugal_logo{
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+  width: 40px;
+}
+
+.navbar{
+background-color: rgb(255,255,255,0.12);
+  position: static;
+  border-radius: 10px;
+  width: 98%;
+  margin: 1% auto;
+  margin-left: auto;
+margin-right: auto;
+}
+.stroke{
+   position: absolute;
+    top:60px;
+    right: 1px;
+    background-color: #393E46;
+    text-align: center;
+    padding: 100px;
+    background-color: transparent;
+}
+
+.header-span{
+  /* color: transparent; */
+  background: -webkit-linear-gradient(-86deg, #EEF85B 5%, #7AEC8D 53%, #09E5C3 91%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 6px transparent;
+  color: #232d2d;
+  padding-left: 10px;
+  font-size: 5rem;
+  /* -webkit-text-stroke: 4px navy; */
+}
+
+h1:hover {
+   transform: scale(1.1);
+ }
+
+ .skills-hr{
+   color: white;
+   width: 20%;
+   margin: 0 auto;
+   border: 0 8px;
+ }
+hr{
+  size:100px;
+}
+.rainbow-box {
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+}
+
+.top1{
+  border-radius: 30px;
+  background-color: rgb(255,255,255,0.08);
+  text-align: center;
+  padding: 50px;
+  width: 40%;
+  text-align:center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 200px 50px;
+  height: 500px;
+
+}
+
+.top-header{
+  font-size: 5rem;
+  position: relative;
+}
+
+.header1{
+  display: flex;
+}
+.skills-header{
+  margin-bottom: 50px;
+}
+ .footer{
+   text-align: center;
+   bottom: 0;
+   right: auto;
+   left: auto;
+   padding: 2% 5%;
+   color: white;
+ }
+.footer a{
+  color: white;
+}
+
+/*slide animation*/
+@media screen and (max-width: 767px) {
+  .top img{
+    margin: 100px 10px;
+  position: static;
+  text-align: center;
+  position: relative;
+  right: 100px;
+  }
+  .top1{
+    margin-top: 300px;
+  }
+
+  .row{
+    width: 100vw;
+  }
+  body{
+    background-color: yellow;
+  }
+  html{
+    width: 100vw;
+  }
+}
+
+
+/*ghjk
